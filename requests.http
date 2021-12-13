@@ -11,4 +11,4 @@ content-type: application/json
 }
 
 ### Get a particular message
-GET http://localhost:8000/messages/123?test=456
+GET http://localhost:8000/messages/954
