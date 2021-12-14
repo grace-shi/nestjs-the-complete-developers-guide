@@ -37,3 +37,12 @@ Admins have to approve reported sales
 |-|-|-|-|-|
 |auth|Users|Users Controller|Users Service|Users Repository|
 |reports|Reports|Reports Controller|Reports Service|Reports Repository|
+
+### TypeORM
+Connection to SQLite DB -> AppModule
+
+AppModule -> UsersModule    -> User Entity - Lists the differnt properties that a User has(no functionality)
+                            -> Users Repository - Methods to find, update, delete, create a User 
+          -> ReportsModule  -> Report Entity - Lists the different properties that a Report has(no functionality)
+                            -> Reports Respository - Methods to find, update, delete, create a Report
+
